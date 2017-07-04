@@ -11,7 +11,7 @@ The idea is to let this container run continuously and only be occasionly restar
 This image is mainly created to run on a QNAP TS-521+ but will for sure run on other platforms.
 
 Fire it up with the command: 
-docker run -it -v "$PWD":/minecraft/repository -p 25565:25565 ramdad/docker-spigot-autobuild
+docker run -it -v "$PWD":/minecraft/repository -p 25565:25565 ramdad/spigot-autobuild
 
 ## Volumes
 /minecraft/repository
