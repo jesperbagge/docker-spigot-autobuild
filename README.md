@@ -8,7 +8,7 @@ The start of this image can take quite some time, depending on the resources dev
 The entire server directory is exposed to enable a mount to the host system for persistence.
 The idea is to let this container run continuously and only be occasionly restarted to update the .jar 
 
-This image is mainly created to run on a QNAP TS-521+ but will for sure run on other platforms.
+This image is mainly created to run on a QNAP TS-251+ but will for sure run on other platforms.
 
 Fire it up with this command for a server mounted to your present directory.
 ``` 
