@@ -15,6 +15,7 @@ ADD scripts/* $EXECUTABLES
 # Open ports to the container
 EXPOSE 25565
 EXPOSE 25566
+EXPOSE 8123
 
 # Mount volume
 VOLUME $REPOSITORY
