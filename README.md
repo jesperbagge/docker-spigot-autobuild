@@ -1,5 +1,5 @@
 # On-demand spigot server
-This is a docker image running Minecraft (Spigot) on openjdk:8. 
+This is a docker image running Minecraft (Spigot) on openjdk:8.
 When started it will download and build the latest version of Spigot.
 
 After the build completes, the build files are deleted and the Minecraft server is started.
