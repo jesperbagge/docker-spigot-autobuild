@@ -1,4 +1,4 @@
-FROM openjdk:8-jre
+FROM openjdk:8
 LABEL maintainer="jesperbagge@gmail.com"
 
 # Define environment variables
