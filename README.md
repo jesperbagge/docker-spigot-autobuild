@@ -21,3 +21,4 @@ docker run -it -v "$PWD":/minecraft/repository -p 25565:25565 ramdad/spigot-auto
 ## Ports
 * 25565 - default server port
 * 25566 - extra port for RCON
+* 8123 - default port for DynMap
