@@ -10,7 +10,7 @@ ENV REPOSITORY /minecraft/repository
 RUN mkdir -p $EXECUTABLES $REPOSITORY
 
 # Copy the current directory contents into the container at /minecraft
-ADD scripts/* $EXECUTABLES
+ADD scripts/* $EXECUTABLES/
 
 # Open ports to the container
 EXPOSE 25565
