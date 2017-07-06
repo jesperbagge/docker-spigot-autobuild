@@ -8,7 +8,7 @@ The start of this image can take quite some time, depending on the resources dev
 The entire server directory is exposed to enable a mount to the host system for persistence.
 The idea is to let this container run continuously and only be occasionly restarted to update the .jar 
 
-There is an included start.sh script that can be set as the script to run when calling restart from the server prompt. You'll ave to configure this manually in the server config files.
+There is an included start.sh script that can be set as the script to run when calling restart from the server prompt. You'll have to configure this manually in the server config files.
 
 This image is mainly created to run on a QNAP TS-251+ but will for sure run on other platforms.
 
